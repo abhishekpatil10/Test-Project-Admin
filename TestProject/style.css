@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  display: flex;
+}
+.admin-panel {
+  background-color: blueviolet;
+  width: 30%;
+  height: 100vh;
+}
+.admin-panel h5 {
+  text-align: center;
+  color: white;
+  padding: 1em;
+  padding-left: 0em;
+}
+
+.admin-panel ul {
+  padding: 1em;
+  list-style: none;
+  color: white;
+}
+.admin-panel ul li {
+  padding: 0.3em 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.admin-panel ul li i {
+  margin: 1em;
+}
+
+.active,
+.admin-panel ul li:hover {
+  background-color: #a8ccd7;
+  cursor: pointer;
+}
+
+.dash-content {
+  padding: 1em;
+  background-color: whitesmoke;
+  width: 125%;
+  color: gray;
+  height: 10vh;
+}
+.dash-content .dash-top {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+}
+.dash-content .dash-top i {
+  padding-top: 0.3em;
+}
+
+.dash-graph {
+  margin: 6em 2em;
+}
+.dash-graph img {
+  padding: 2em;
+}
+.dash-graph img:hover {
+  cursor: pointer;
+}
+
+.dash-b {
+  display: flex;
+}
+.dash-bottom {
+  border: 2px solid;
+  margin: -2em 4em;
+  padding: 1em;
+  width: 30%;
+}
+
+.dash-bottom-left {
+  border: 2px solid;
+  margin: -2em 4em;
+  padding: 1em;
+  width: 50%;
+}
+.float-info {
+  float: right;
+  background-color: skyblue;
+  margin-top: -0.5em;
+  padding: 0.1em 1em;
+  display: flex;
+}
+.float-info p {
+  margin-right: 2em;
+}
+.float-info i {
+  margin-top: 0.9em;
+  padding: 0 0.5em;
+  margin-right: 1em;
+  font-size: 24px;
+}
